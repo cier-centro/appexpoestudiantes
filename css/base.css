@@ -68,14 +68,14 @@ h4
 
 .nombre
 {
-    height: 250px;
+    height: 180px;
     background-color: #009FE3;
     padding: 50px 20px 20px 40px;
 }
 
 .fotografia
 {
-    height: 300px;
+    height: 370px;
     overflow: hidden;
     padding: 0;
 }
@@ -106,6 +106,12 @@ p
 }
 
 .container {
-    margin-top: 10%;
+    margin-top: 5%;
+}
+
+.item {
+    display: none;
+    position: relative;
+    transition: 12s ease-in-out left;
 }
 

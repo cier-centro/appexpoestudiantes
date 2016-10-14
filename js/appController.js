@@ -2,6 +2,11 @@ var objData = "";
 var url = 'service/Resources/Base-expo-estudiantes.json';
 
 $(document).ready(function() {
+    
+    $('#myCarousel').carousel({
+        interval: 12500
+    });
+    
     $.ajax({
         url: url,
         dataType: 'json',
@@ -14,8 +19,6 @@ $(document).ready(function() {
     contentCarousel();
 
     function contentCarousel() {
-        
-        console.log(objData);
         
         var content = "";
         
